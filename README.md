@@ -22,3 +22,6 @@ python breacher -u example.com
 ```
 
 <b>Note: </b> When you specify an extension using <b>--type</b> option, Breacher includes paths of that extension as well as paths with no extensions like <b>/admin/login</b>
+
+#### Demo
+<img src='https://i.imgur.com/CkdsNs7.png' />
