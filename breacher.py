@@ -23,7 +23,7 @@ target = 'http://' + target
 def scan(links):
 	for link in links:
 		link = target + link
-		r = requests.get(link)
+		r = requests.get(link, headers={'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:52.0) Gecko/20100101 Firefox/52.0')
 		http = r.status_code
 		if http == 200:
 			print '  \033[1;32m[+]\033[0m Admin panel found: %s'% link
