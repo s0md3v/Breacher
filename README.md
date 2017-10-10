@@ -6,6 +6,8 @@ A script to find admin login pages and EAR vulnerabilites.
 - [x] Big path list (798 paths)
 - [x] Supports php, asp and html extensions
 - [x] Checks for potential EAR vulnerabilites
+- [x] Checks for robots.txt
+- [x] Support for custom patns
 
 ### Usages
 - Check all paths with php extension
@@ -20,7 +22,10 @@ python breacher -u example.com --type php --fast
 ```
 python breacher -u example.com
 ```
-
+- Adding a custom path
+```
+python breacher -u example.com --path /data
+```
 <b>Note: </b> When you specify an extension using <b>--type</b> option, Breacher includes paths of that extension as well as paths with no extensions like <b>/admin/login</b>
 
 #### Demo
