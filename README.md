@@ -22,7 +22,7 @@ python breacher -u example.com --type php --fast
 ```
 python breacher -u example.com
 ```
-- Adding a custom path
+- Adding a custom path. For example if you want all paths to start with /data (example.com/data/...) you can do this:
 ```
 python breacher -u example.com --path /data
 ```
